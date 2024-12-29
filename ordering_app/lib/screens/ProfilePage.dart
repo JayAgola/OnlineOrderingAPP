@@ -45,7 +45,7 @@ class _ProfilePage extends State<ProfilePage>{
             children: [
               Text("${user!.name}",style: PrimaryText(Colors.white),textScaler: TextScaler.linear(1.2),),
               Spacer(),
-              Text("+91-7202058535",style: TextStyle(color: Colors.white),textScaler: TextScaler.linear(1.2),),
+              Text("${user!.email}",style: TextStyle(color: Colors.white),textScaler: TextScaler.linear(1.2),),
             ],
           ),
         )),
